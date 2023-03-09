@@ -11,3 +11,6 @@ pub struct Player;
 
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Enemy;
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub struct MovingRandomly;
