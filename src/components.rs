@@ -35,3 +35,24 @@ pub struct WantsToAttack {
     pub attacker: Entity,
     pub victim: Entity,
 }
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub struct ChasingPlayer;
+
+//TODO figure out effects for being hit
+// pub struct Effect {
+//     pub entity: Entity,
+//     pub type: EffectType,
+// }
+//
+// #[derive(Debug, Clone, Copy, PartialEq)]
+// pub enum EffectType {
+//     Hit,
+//     Heal
+// }
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub struct Item;
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub struct AmuletOfYala;
